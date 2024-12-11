@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Categories</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://www.alltrails.com/_next/image?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjgzMDI1NTYvNzg2ZTk1OTlhYjJlNmU3MTBhNDM0NzdjN2Y1MmVhMjQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=3840&q=90');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Raleway', sans-serif;
+            color: #333;
+        }
+        .category {
+            background-color: #99c9a0;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .fm {
+            margin-top: 10px;
+            text-align: center;
+            font-style: italic;
+            color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tanay Tambay Treats</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page1.html">Categories</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="category">Appetizers</div>
+                <div class="card">
+                    <img src="https://panlasangpinoy.com/wp-content/uploads/2018/12/Lumpiang-Shanghai-Panlasang-Pinoy.jpg" class="card-img-top" alt="Taho">
+                    <div class="card">
+                        <h5 class="cardtitle">Lumpiang Shanghai</h5>
+                        <p class="cardtext">A crispy and meaty appetizer with beef and vegetables.</p>
+                        <a href="page4.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="category">Main Dishes</div>
+                <div class="card">
+                    <img src="https://panlasangpinoy.com/wp-content/uploads/2018/09/sisig-recipe.jpg" class="card-img-top" alt="Kare-Kare">
+                    <div class="card">
+                        <h5 class="cardtitle">Sisig</h5>
+                        <p class="cardtext">A savory Filipino classic</p>
+                        <a href="page3.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="category">Desserts</div>
+                <div class="card">
+                    <img src="https://www.foxyfolksy.com/wp-content/uploads/2017/05/taho-recipe.jpg" class="card-img-top" alt="Halo-Halo">
+                    <div class="card">
+                        <h5 class="cardtitle">Taho</h5>
+                        <p class="cardtext">A sweet Filipino snack made of silken tofu, syrup, and tapioca pearls.</p>
+                        <a href="page2.html" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fm">More recipes coming soon!</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
